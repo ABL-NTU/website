@@ -1,22 +1,25 @@
 .navbar-custom {
-    background-color: #e6fcfb; /* your desired color here */
-  }
+  background-color: #e6fcfb;
+  /* your desired color here */
+}
 
 
 .navbar-nav .nav-link {
-font-size: x-large;
+  font-size: x-large;
 }
 
 /* .active {
     font-weight: bold;
 } */
 
-.home-header, .research-header {
+.home-header,
+.research-header {
   margin: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .carousel-caption {
   position: absolute;
   top: 60%;
@@ -31,6 +34,7 @@ font-size: x-large;
 .carousel-caption h5 {
   font-size: 48px;
 }
+
 .carousel-caption p {
   font-size: 30px;
 }
@@ -38,10 +42,12 @@ font-size: x-large;
 
 .people-container {
   background-color: #cbf5ea;
-  display: flex; 
+  display: flex;
   justify-content: flex-start;
-  flex-wrap: wrap; /* Add this line to wrap items onto the next row */
-  padding: 30px; /* Add margin to the left and right */
+  flex-wrap: wrap;
+  /* Add this line to wrap items onto the next row */
+  padding: 30px;
+  /* Add margin to the left and right */
 
 
 
@@ -53,7 +59,8 @@ font-size: x-large;
 }
 
 .people-container a:hover {
-  color: gray; /* Optional: Change color on hover */
+  color: gray;
+  /* Optional: Change color on hover */
   text-decoration: none;
 }
 
@@ -64,7 +71,8 @@ font-size: x-large;
   border-radius: 10px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  flex-basis: 200px; /* Adjust the flex-basis value as desired */
+  flex-basis: 200px;
+  /* Adjust the flex-basis value as desired */
   margin: 40px;
 }
 
@@ -103,7 +111,8 @@ font-size: x-large;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start; /* Align items to the top of the container */
+  align-items: flex-start;
+  /* Align items to the top of the container */
 }
 
 .publications-right a {
@@ -159,11 +168,14 @@ font-size: x-large;
 }
 
 .opportunities-container a {
-  display: block; /* Add this property to make the <a> tag a block-level element */
+  display: block;
+  /* Add this property to make the <a> tag a block-level element */
   color: #536878;
 }
+
 .opportunities-container a:hover {
-  display: block; /* Add this property to make the <a> tag a block-level element */
+  display: block;
+  /* Add this property to make the <a> tag a block-level element */
   color: gray;
   text-decoration: none;
 }

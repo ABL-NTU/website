@@ -41,7 +41,7 @@
 .people-container {
   background-color: #cbf5ea;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
   /* Add this line to wrap items onto the next row */
   padding: 30px;
@@ -65,7 +65,6 @@
   border-radius: 10px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  flex-basis: 200px;
   /* Adjust the flex-basis value as desired */
   margin: 40px;
 }
@@ -203,6 +202,18 @@
   justify-content: center;
   align-items: stretch;
   padding: 30px;
+}
+
+.partners-container a {
+  display: block;
+  text-decoration: none;
+  color: #536878;
+
+}
+
+.partners-container a:hover {
+  color: gray;
+  text-decoration: none;
 }
 
 .partner {

@@ -1,17 +1,14 @@
+/* Navbar styling */
 .navbar-custom {
   background-color: #e6fcfb;
   /* your desired color here */
 }
 
-
 .navbar-nav .nav-link {
   font-size: x-large;
 }
 
-/* .active {
-    font-weight: bold;
-} */
-
+/* Home and research section headers styling */
 .home-header,
 .research-header {
   margin: 20px;
@@ -20,6 +17,7 @@
   align-items: center;
 }
 
+/* captioning in the slides */
 .carousel-caption {
   position: absolute;
   top: 60%;
@@ -39,7 +37,7 @@
   font-size: 30px;
 }
 
-
+/* people section styling */
 .people-container {
   background-color: #cbf5ea;
   display: flex;
@@ -48,9 +46,6 @@
   /* Add this line to wrap items onto the next row */
   padding: 30px;
   /* Add margin to the left and right */
-
-
-
 }
 
 .people-container a {
@@ -64,7 +59,6 @@
   text-decoration: none;
 }
 
-
 .person {
   background-color: #fff;
   padding: 20px;
@@ -75,8 +69,6 @@
   /* Adjust the flex-basis value as desired */
   margin: 40px;
 }
-
-
 
 .person img {
   width: 56mm;
@@ -104,8 +96,7 @@
   padding-top: 40px;
 }
 
-
-
+/* publication section styling */
 .publications-wrapper {
   margin: 20px;
   display: flex;
@@ -145,6 +136,7 @@
   justify-content: center;
 }
 
+/* opportunities section styling */
 .opportunities-container {
   background-color: gainsboro;
   display: flex;
@@ -180,7 +172,6 @@
   text-decoration: none;
 }
 
-
 .opportunity img {
   height: 200px;
   width: 300px;
@@ -204,7 +195,7 @@
   margin-top: 40px;
 }
 
-
+/* partners section styling */
 .partners-container {
   background-color: lavender;
   display: flex;
@@ -249,7 +240,7 @@
   padding-top: 40px;
 }
 
-
+/* contacts section styling */
 .contacts-wrapper {
   background-color: gainsboro;
   padding: 20px;
@@ -306,6 +297,7 @@
   font-size: 1.5em;
 }
 
+/* for mobile responsive contacts section */
 @media (min-width: 1250px) {
   .contacts-right {
     align-self: flex-start;
